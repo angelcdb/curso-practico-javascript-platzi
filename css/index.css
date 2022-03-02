@@ -1,0 +1,129 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: url(../Imagenes/fondo.jpg);
+    background-size: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+.header--nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 9vh;
+    background-color: rgb(41, 98, 100);
+}
+.header--nav__img{
+    width: 6rem;
+    height: 4rem;
+    margin: 2rem;
+}
+.header--nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.titulo h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 4rem;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+}
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6, .card-7{
+    display: flex;
+    width: 38rem;
+    height: 24rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgba(128, 61, 131, 0.397);
+    background-color: rgb(198, 232, 233);
+    margin: 2rem;
+}
+
+.card-1 .sec1 h2,
+.card-2 .sec2 h2,
+.card-3 .sec3 h2,
+.card-4 .sec4 h2,
+.card-5 .sec5 h2,
+.card-6 .sec6 h2,
+.card-7 .sec7 h2{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: purple;
+}
+.card-1 .sec1 p,
+.card-2 .sec2 p,
+.card-3 .sec3 p,
+.card-4 .sec4 p,
+.card-5 .sec5 p,
+.card-6 .sec6 p,
+.card-7 .sec7 p{
+    font-size: 2.2rem;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+}
+.card-1 button{
+    margin-top: .5rem;
+}
+.card-1 .card-2 .card-3 .card-4 .card-5 .card-6 .card-7, button{
+    width: 6rem; 
+    height: 4rem;
+    border: solid purple;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    padding: .8rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.card-1 .card-2 .card-3 .card-4 .card-5 .card-6 .card-7, a {
+    text-decoration: none;
+}
+.card-1 .card-2 .card-3 .card-4 .card-5 .card-6 .card-7, button:hover {
+    background-color:  rgb(160, 157, 157);
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(41, 98, 100);
+}
+.footer .git{
+    display: flex;
+    width: 8rem;
+    height: 4rem;
+}
+.footer a{
+    display: flex;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer p{
+    font-size: 1.8rem;
+    color: white;
+}

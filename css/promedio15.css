@@ -1,0 +1,221 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: url(../Imagenes/figueras-ge.jpg);
+}
+html{
+    font-size: 62.5%;
+}
+.header h1{
+    color: purple;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 4rem;
+}
+.header p{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 6rem;
+}
+.header--nav__img{
+    width: 6rem;
+    height: 4rem;
+    margin: 2rem;
+}.header--nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(41, 98, 100);
+}
+
+.header--nav li:hover {
+    background: purple;
+} 
+.header--nav .menu li{
+    font-size: 1.8rem;
+    padding: .3rem;
+    cursor: pointer;
+}
+.header--nav ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    font-size: 2rem;
+    padding: .5rem;
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: black;
+    transition: all .3s;
+}
+/* Sub-menu */
+
+.submenu{
+    display: none;
+    position: absolute;
+    background: rgb(160, 157, 157);
+    width: 9rem;
+    padding: .4rem;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    font-size: 2rem;
+    padding: .4rem;
+    text-decoration: none;
+    color: white;
+}
+.menu li:hover > .submenu{
+    display: block;
+}
+.titulo h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-size: 4rem;
+}
+.titulo p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.8rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+    
+}
+.card-1, .card-2{
+    display: flex;
+    width: 34rem;
+    height: 45rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0.5rem 0.5rem 1rem 0.5rem rgba(128, 61, 131, 0.397);
+    background-color: rgb(198, 232, 233);
+    margin: 2rem;
+}
+.card-1 .sec1 h2{
+    font-size: 2.7rem;
+    margin-bottom: 1.5rem;
+    color: purple;
+}
+.card-1 label, span{
+    font-size: 2.2rem;
+    
+}
+.card-1 .sec1 #inputNumero{
+    width: 28rem;
+    height: 3rem;
+    font-size: 2.2rem; 
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    
+}
+.botones button{
+    display: flex;
+    justify-content: center;
+}
+.card-1 button{
+    width: 22rem;
+    height: 4rem;
+    border: solid purple;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+    padding: .8rem;
+    margin: 1rem auto;
+    cursor: pointer;   
+}
+.card-1 .card-2 .card-3 .card-4 .card-5 .card-6 .card-7, button:hover {
+    background-color:  rgb(160, 157, 157);
+}
+
+.capsula{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.card-2 .promedio{
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.card-2 #resultLista{
+    width: 28rem;
+    height: 10rem;
+    font-size: 2rem;
+    border: solid blue;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.card-2 #result{
+    width: 28rem;
+    height: 7rem;
+    font-size: 2rem;
+    border: solid black;
+    color: purple;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.card-2 #resultPromedio{
+    font-size: 2.2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+.card-2 #resultadoFinal{
+    width: 28rem;
+    height: 4rem;
+    font-size: 2rem;
+    border: solid red;
+    border-radius: 1rem;
+    background-color: rgb(214, 145, 211);
+    padding: .7rem;
+}
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(41, 98, 100);
+}
+.footer .git{
+    display: flex;
+    width: 8rem;
+    height: 4rem;
+}
+.footer a{
+    display: flex;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer p{
+    font-size: 1.8rem;
+    color: white;
+}

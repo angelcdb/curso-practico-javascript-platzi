@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porcentajes y Descuentos</title>
+    <link rel="stylesheet" href="./css/descuentos10.css">
+</head>
+<body>
+    <header class="header">
+            <nav class="header--nav">
+                <img class="header--nav__img" src="./Imagenes/Logo-ce.jpeg" alt="">
+                <ul class="menu">
+                    <li><a href="./index.html">Inicio |</a></li>
+                    <li><a href="./figuras8.html">Taller #1 |</a></li>
+                    <li><a href="./descuentos10.html">Taller #2 |</a></li>
+                    <li><a href="./promedio15.html">Taller #3 |</a>
+                    <ul class="submenu">
+                        <li><a href="./mediana16.html">#3.1 |</a></li>
+                        <li><a href="./mediana16.html">#3.2 |</a></li>
+                    </ul>
+                    </li>
+                    
+                    <li><a href="./mediArmonica18.html">Taller # 4 |</a>
+                        <ul class="submenu">
+                            <li><a href="./cuotas20.html"># 4.1 |</a></li> 
+                        </ul>
+                        </li> 
+                </ul>
+            </nav>
+    </header>
+
+    <div class="titulo">
+        <h1>Porcentajes y Descuentos | Curso Práctico de JavaScript</h1>
+        <p>El segundo taller del Curso Práctico de JavaScript</p>
+    </div>
+
+    <div class="card">
+        <div class="card-1">
+            <section class="sec1">
+                <h2>Calcula el precio a pagar de tus productos con tus descuentos:</h2>
+    
+        
+                <form action="">
+                    <label for="inputPrice">Precio de tu producto:</label>
+                    <input id="inputPrice" type="number" placeholder="$$" /> <br/>
+
+                    <label for="inputDiscount">Descuento de tu producto:</label>
+                    <input id="inputDiscount" type="number" placeholder="%"/>
+                    <!-- Para conectar el label con el input, tiene que llevar mismo id en el for: -->
+
+                    <label for="inputCupon">Cupón de descuento %:</label>
+                    <input id="inputCupon" type="text" placeholder="Inserte Cúpon"/>
+
+                    <button type="button" onclick="onClickButtonPriceDiscount()"> 
+                        Calcular precio con descuento
+                    </button>
+                    <!-- Para q no se recargue la pagina es importante poner: type "button"  -->
+                    <!-- Para conectar el button con js, es importarte: onclick="n" -->
+
+                </form>
+            </section>
+        </div>
+
+        <div class="card2">
+            <section class="card2--sec2">
+                <div class="card2--h2">
+                    <h2>Producto:</h2>
+                    <p>Pelsera de hombre</p>
+                </div>
+                
+                <img class="card2--img" src="./Imagenes/Pulsera-de Hombre.png" alt="pulcera-de-hombre">
+                
+    
+                <div class="capsula">
+                    <p class="resultado">Resultado:</p>
+                    <p id="resultOriginal"></p>
+                    <p id="resultPDescuento"></p>
+                    <p id="resultCupones"></p>
+                    <p id="resultAhorro"></p>
+                    <p id="resultTotal"></p>                
+                    </div>
+            </section>
+        </div>
+
+        <div class="card3">
+            <section class="card3--sec3">
+                <h2>Cupones de descuentos:</h2>
+                <p> aa= 15%</p>
+                <p>dd= 30%</p>
+                <p>cc= 40%</p>
+                <p>bb= 50%</p>
+            </section>
+        </div>
+    </div>
+
+    <script src="./descuentos10.js"></script>
+
+    <footer class="footer">
+        <a href="https://github.com/angelcdb">¿Quien hizo la web?</a>
+        <a href="https://github.com/angelcdb/curso-practico-javascript-platzi"><img class="git" src="./Imagenes/GitHub.png" alt="Githut"></a>
+
+        <p>Hecho por @AngelContreras 2022</p> 
+    </footer>
+</body>
+</html>

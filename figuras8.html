@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figuras Geómetricas |Curso Práctico JavaScript</title>
+    <link rel="stylesheet" href="./css/figuras8.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header--nav">
+            <img class="header--nav__img" src="./Imagenes/Logo-ce.jpeg" alt="">
+            <ul class="menu">
+                <li><a href="./index.html">Inicio |</a></li>
+                <li><a href="./figuras8.html">Taller #1 |</a></li>
+                <li><a href="./descuentos10.html">Taller #2 |</a></li>
+                <li><a href="./promedio15.html">Taller #3 |</a>
+                <ul class="submenu">
+                    <li><a href="./mediana16.html">#3.1 |</a></li>
+                    <li><a href="./mediana16.html">#3.2 |</a></li>
+                </ul>
+                </li>
+                
+                <li><a href="./mediArmonica18.html">Taller # 4 |</a>
+                    <ul class="submenu">
+                        <li><a href="./cuotas20.html"># 4.1 |</a></li> 
+                    </ul>
+                    </li> 
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h1>Figuras Geómetricas | Curso Práctico de JavaScript</h1>
+        <p>El primer taller del curso Práctico de JavaScript</p>
+    </div>
+
+    <div class="card">
+        <div class="card1">
+            <section class="sec1">
+                <h2>Calcula el perímetro y área de un cuadrado</h2>
+                <img class="cuadrado" src="./Imagenes/cuadrado.jpg" alt="cuadrado">
+                
+                <form action="">
+                    <label for="inputCuadrado">
+                        Escribe cuanto mide cada lado de tu cuadrado:
+                    </label>
+                    <input id="inputCuadrado" type="number" /><br/><br/>
+
+                    <div class="botones">
+                        <button type="button" onclick="calcularPerimetroCuadrado()">
+                            Calcúlar perímetro
+                        </button>
+                        <button type="button" onclick="calcularAreaCuadrado()">
+                            Calcúlar área
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+
+
+        <div class="card2">
+            <section class="sec1">
+                <h2>Calcula el perímetro y área de un triángulo</h2>
+                <img class="triangulo" src="./Imagenes/triangulo.jpg" alt="triángulo">
+
+                <form action="">
+                    <label for="inputTriangulo-1">
+                        Medida lado 1:
+                    </label>
+                    <input id="inputTriangulo-1" type="number"/><br/>
+
+                    <label for="inputTriangulo-2">
+                        Medida lado 2:
+                    </label>
+                    <input id="inputTriangulo-2" type="number"/><br/>
+
+                    <label for="inputTriangulo-Base">
+                        Madida base :</label>
+                    <input id="inputTriangulo-Base" type="number"/><br/>
+
+                    <label for="inputTriangulo-Altura">Medida altura: </label>
+                    <input id="inputTriangulo-Altura" type="number"/>
+
+                    <div class="botones">
+                        <button class="button--card2" type="button" onclick="calcularPerimetroTriangulo()">
+                            Calcúlar perímetro
+                        </button>
+    
+                        <button class="button--card2" type="button" onclick="calcularAreaTriangulo()">
+                            Calcúlar área
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+
+        <div class="card3">
+            <section class="sec1">
+                <h2>Calcula el perímetro y área de un circulo</h2>
+                <img class="circulo" src="./Imagenes/circulo.jpg" alt="circulo">
+                
+                <form action="">
+                    <label for="inputCirculo">Escribe cuando mide el radio de tu circulo:</label><br/>
+                    <input id="inputCirculo" type="number"/>
+                    
+                    <div class="botones">
+                        <button type="button" onclick="calcularPerimetroCirculo()">
+                            Calcúlar perímetro
+                        </button>
+           
+                        <button type="button" onclick="calcularAreaCirculo()">
+                            Calcúlar área
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+
+        
+
+
+        <div class="card4">
+            <section class="sec1">
+                <h2>Calcula la altura de un triángulo Isósceles</h2>
+                <img class="triangulo" src="./Imagenes/triangulo-isosceles.jpg" alt="triángulo">
+
+                <form action="">
+                    <label for="lado1">Medida lado 1:</label>
+                    <input id="lado1" type="number"/><br/>
+
+                    <label for="lado2">Medida lado 2:</label>
+                    <input id="lado2" type="number"/><br/>
+
+                    <label for="ladoBase">Madida base :</label>
+                    <input id="ladoBase" type="number"/><br/>
+
+                    <div class="botones">
+                        <button type="button" onclick="calcularAlturaIsosceles()">
+                            Altura Isósceles
+                        </button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </div>
+    <script src="./figuras.js"></script>
+
+    <footer class="footer">
+        <a href="https://github.com/angelcdb">¿Quien hizo la web?</a>
+        <a href="https://github.com/angelcdb/curso-practico-javascript-platzi"><img class="git" src="./Imagenes/GitHub.png" alt="Githut"></a>
+
+        <p>Hecho por @AngelContreras 2022</p> 
+    </footer>
+</body>
+</html>

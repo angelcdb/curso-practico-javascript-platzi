@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuotas</title>
+    <link rel="stylesheet" href="./css/cuotas20.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header--nav">
+            <img class="header--nav__img" src="./Imagenes/Logo-ce.jpeg" alt="">
+            <ul class="menu">
+                <li><a href="./index.html">Inicio |</a></li>
+                <li><a href="./figuras8.html">Taller #1 |</a></li>
+                <li><a href="./descuentos10.html">Taller #2 |</a></li>
+                <li><a href="./promedio15.html">Taller #3 |</a>
+                <ul class="submenu">
+                    <li><a href="./mediana16.html">#3.1 |</a></li>
+                    <li><a href="./moda17.html">#3.2 |</a></li>
+                    
+                </ul>
+                </li>
+
+                <li><a href="./mediArmonica18.html">Taller # 4 |</a>
+                    <ul class="submenu">
+                        <li><a href="./cuotas20.html"># 4.1 |</a></li> 
+                    </ul>
+                    </li>  
+            </ul>
+        </nav>
+    </header>
+<main>
+    <div class="titulo">
+        <h1> Cuotas de pago | Curso Práctico de JavaScript</h1>
+        <p>El taller #4.1 del Curso Práctico de JavaScript</p>
+    </div>
+
+    <div class="card">
+        <div class="card-1">
+             <section class="sec1">
+                <h2>Cálculo de cuotas</h2>
+
+                    <label for="inputNumero">
+                        <p>Monto de la compra:</p>
+                        <input id="inputNumero" type="number" name="inputNumero" placeholder="Ej: 15000">
+                    </label>
+                    <label for="tea">
+                        <p>TEA (Tarjeta de crédito):</p>
+                        <input id="tea" type="number" name="tea" placeholder="Ej: 38">
+                    </label>
+                    <label for="cuotas">
+                        <p>Cantidad de cuotas:</p>
+                        <input id="cuotas" type="number" name="cuotas" placeholder="Ej: 12">
+                    </label>
+
+
+                    <div class="botones">
+                        <button type="button" onclick="calcular()">Calcular</button>
+                        <button type="button" onclick="limpiarValues()">Limpiar</button>
+                    </div>
+                </section>       
+        </div>
+
+        <div class="card-2">
+            <div class="capsula">
+                <p class="resultado">Resultado:</p>
+                <p id="resultLista"></p>
+                <p id="top10"></p>
+                <p id="resultadoFinal"></p>
+            </div>
+        </div>
+    </div>
+</main>
+    
+    <script src="./analisis20.js"></script>
+
+    <footer class="footer">
+        <a href="https://github.com/angelcdb">¿Quien hizo la web?</a>
+        <a href="https://github.com/angelcdb/curso-practico-javascript-platzi"><img class="git" src="./Imagenes/GitHub.png" alt="Githut"></a>
+
+        <p>Hecho por @AngelContreras 2022</p> 
+    </footer>
+</body>
+</html>
