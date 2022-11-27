@@ -21,12 +21,12 @@
                     <li><a href="./mediana16.html">#3.2 |</a></li>
                 </ul>
                 </li>
-                
+
                 <li><a href="./mediArmonica18.html">Taller # 4 |</a>
                     <ul class="submenu">
-                        <li><a href="./cuotas20.html"># 4.1 |</a></li> 
+                        <li><a href="./cuotas20.html"># 4.1 |</a></li>
                     </ul>
-                    </li> 
+                    </li>
             </ul>
         </nav>
     </header>
@@ -41,11 +41,12 @@
             <section class="sec1">
                 <h2>Calcula el perímetro y área de un cuadrado</h2>
                 <img class="cuadrado" src="./Imagenes/cuadrado.jpg" alt="cuadrado">
-                
+
                 <form action="">
                     <label for="inputCuadrado">
                         Escribe cuanto mide cada lado de tu cuadrado:
                     </label>
+                    <br/>
                     <input id="inputCuadrado" type="number" /><br/><br/>
 
                     <div class="botones">
@@ -79,7 +80,7 @@
                     <input id="inputTriangulo-2" type="number"/><br/>
 
                     <label for="inputTriangulo-Base">
-                        Madida base :</label>
+                        Madida base :   </label>
                     <input id="inputTriangulo-Base" type="number"/><br/>
 
                     <label for="inputTriangulo-Altura">Medida altura: </label>
@@ -89,7 +90,7 @@
                         <button class="button--card2" type="button" onclick="calcularPerimetroTriangulo()">
                             Calcúlar perímetro
                         </button>
-    
+
                         <button class="button--card2" type="button" onclick="calcularAreaTriangulo()">
                             Calcúlar área
                         </button>
@@ -103,16 +104,16 @@
             <section class="sec1">
                 <h2>Calcula el perímetro y área de un circulo</h2>
                 <img class="circulo" src="./Imagenes/circulo.jpg" alt="circulo">
-                
+
                 <form action="">
                     <label for="inputCirculo">Escribe cuando mide el radio de tu circulo:</label><br/>
                     <input id="inputCirculo" type="number"/>
-                    
+
                     <div class="botones">
                         <button type="button" onclick="calcularPerimetroCirculo()">
                             Calcúlar perímetro
                         </button>
-           
+
                         <button type="button" onclick="calcularAreaCirculo()">
                             Calcúlar área
                         </button>
@@ -120,8 +121,6 @@
                 </form>
             </section>
         </div>
-
-        
 
 
         <div class="card4">
@@ -151,10 +150,18 @@
     <script src="./figuras.js"></script>
 
     <footer class="footer">
-        <a href="https://github.com/angelcdb">¿Quien hizo la web?</a>
-        <a href="https://github.com/angelcdb/curso-practico-javascript-platzi"><img class="git" src="./Imagenes/GitHub.png" alt="Githut"></a>
-
-        <p>Hecho por @AngelContreras 2022</p> 
+        <ul>
+            <li>
+                <a href="https://github.com/angelcdb/curso-practico-javascript-platzi">
+                <img src="./Imagenes/logos/github.png" alt="Github" />
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/angel-contreras-front-end-developer-748094218/">
+                <img class="git" src="./Imagenes/logos/linkedin.png" alt="Linkedin"></a>
+            </li>
+        </ul>
+        <p class="pp">Copyright | Angel Contreras © 2021</p>
     </footer>
 </body>
 </html>
