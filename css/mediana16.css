@@ -178,7 +178,7 @@ html{
     border: solid black;
     color: purple;
     border-radius: 1rem;
-    padding: 1.5rem;
+    padding: 1rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -274,6 +274,7 @@ html{
     .card-2 #resultPromedio{
         width: 26rem;
         font-size: 1.8rem;
+        padding: 0.8rem;
     }
     .card-2 #resultadoFinal{
         width: 26rem;
