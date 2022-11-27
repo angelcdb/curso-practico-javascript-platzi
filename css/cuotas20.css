@@ -260,6 +260,7 @@ html{
     }
     .card-2 #resultLista{
         width: 26rem;
+        height: 4rem;
         font-size: 1.8rem;
     }
     .card-2 #resultadoFinal{
