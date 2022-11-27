@@ -14,7 +14,7 @@ html{
 }
 .header{
     width: 100%;
-    height: 12vh;
+    height: 14vh;
 }
 .header--nav{
     display: flex;
@@ -39,8 +39,8 @@ html{
     color: white;
     display: flex;
     justify-content: center;
-    padding: 2rem;
-    font-size: 4rem;
+    padding: 1rem;
+    font-size: 3rem;
 }
 .card{
     display: flex;
@@ -81,6 +81,7 @@ html{
     font-size: 2.2rem;
     margin: 1rem 0;
     padding: 1px;
+    color: black;
 }
 
 .card-1 .card-2 .card-3 .card-4 .card-5 .card-6 .card-7, a {
@@ -120,7 +121,7 @@ html{
 @media(max-width: 600px){
     .header-nav{
         width: 100%;
-        height: 5vh;
+        height: 12vh;
         margin-bottom: 3rem;
     }
     .titulo h1{
@@ -142,5 +143,14 @@ html{
     .card-6 .sec6 h2,
     .card-7 .sec7 h2{
         font-size: 2.5rem;
+    }
+    .card-1 .sec1 p,
+    .card-2 .sec2 p,
+    .card-3 .sec3 p,
+    .card-4 .sec4 p,
+    .card-5 .sec5 p,
+    .card-6 .sec6 p,
+    .card-7 .sec7 p{
+        font-size: 2rem;
     }
 }

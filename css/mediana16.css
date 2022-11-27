@@ -258,6 +258,7 @@ html{
     .card-1 .sec1 #values{
         width: 26rem;
         height: 3rem;
+        margin: 0;
     }
     .card-1 button{
         width: 15rem;
@@ -266,7 +267,7 @@ html{
         /* margin: 1rem; */
     }
     .botones button{
-    margin: 2rem auto;
+    margin: 1rem auto;
     }
     .card-2 #resultLista{
         width: 26rem;
