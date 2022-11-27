@@ -264,6 +264,7 @@ html{
     }
     .card-2 #result{
         width: 26rem;
+        font-size: 1.8rem;
     }
     .card-2 #resultadoFinal{
         width: 26rem;

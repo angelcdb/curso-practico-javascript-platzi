@@ -273,6 +273,7 @@ html{
     }
     .card-2 #resultPromedio{
         width: 26rem;
+        font-size: 1.8rem;
     }
     .card-2 #resultadoFinal{
         width: 26rem;
