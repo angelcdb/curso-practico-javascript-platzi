@@ -134,8 +134,7 @@ html{
     width: 28rem;
     height: 3rem;
     font-size: 1.8rem;
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
+    margin: 10px 0;
 }
 .botones button{
     display: flex;
@@ -258,7 +257,7 @@ html{
     .card-1 .sec1 #values{
         width: 26rem;
         height: 3rem;
-        margin: 0;
+        margin: 10px 0;
     }
     .card-1 button{
         width: 15rem;

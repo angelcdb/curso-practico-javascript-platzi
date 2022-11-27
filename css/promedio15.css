@@ -257,6 +257,7 @@ html{
         height: 3rem;
         font-size: 1.6rem;
         padding: 5px;
+        margin: 0.5rem auto;
     }
     .card-2 #resultLista{
         width: 26rem;
