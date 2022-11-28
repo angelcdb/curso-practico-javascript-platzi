@@ -26,10 +26,10 @@ function calcular() {
     const instalmentsAmount = calculateInstalmentsAmount(inputNumero, cuotas, monthlyInteresRate);
 
     const resultLista = document.getElementById("resultLista");
-    resultLista.innerHTML = "La cuota mensual a pagar es: ";
+    resultLista.innerHTML = "Cuota mensual a pagar: ";
 
     const resultadoFinal = document.getElementById('resultadoFinal');
-    resultadoFinal.innerHTML = `${(instalmentsAmount).toFixed(2)} por ${cuotas} meses`;
+    resultadoFinal.innerHTML = `${(instalmentsAmount).toFixed(2)} x ${cuotas} meses`;
 }
 function limpiarValues() {
     const inputNumero = document.getElementById("inputNumero");
